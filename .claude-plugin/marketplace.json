@@ -1,0 +1,14 @@
+{
+  "name": "agent-pipeline",
+  "description": "Multi-agent pipelines for Claude Code: chain specialised subagents through file handoffs, gates and review loops.",
+  "owner": {
+    "name": "hoangducccc"
+  },
+  "plugins": [
+    {
+      "name": "agent-pipeline",
+      "source": "./plugins/agent-pipeline",
+      "description": "Run any multi-agent workflow defined in Markdown. Ships with /agent-pipeline:ship (planner → coder → tester → reviewer) and a writing workflow."
+    }
+  ]
+}

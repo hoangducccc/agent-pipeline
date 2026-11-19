@@ -1,0 +1,12 @@
+{
+  "name": "agent-pipeline",
+  "displayName": "Agent Pipeline",
+  "version": "1.0.0",
+  "description": "Run multi-agent workflows defined in Markdown: each stage is a focused subagent, stages hand off through files, gates stop on ambiguity or failure, and a reviewer can send work back for a bounded number of fix loops.",
+  "author": {
+    "name": "hoangducccc"
+  },
+  "repository": "https://github.com/hoangducccc/agent-pipeline",
+  "license": "MIT",
+  "keywords": ["pipeline", "subagents", "workflow", "code-review", "planning"]
+}
